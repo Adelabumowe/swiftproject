@@ -12,8 +12,8 @@ jobs:
       - name: Set up Swift
         uses: fwal/setup-swift@v1
 
-      - name: Install dependencies
-        run: swift package resolve
+      # - name: Install dependencies
+      #   run: swift package resolve
 
       - name: Install Snyk CLI
         run: npm install -g snyk
